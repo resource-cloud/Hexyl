@@ -1,0 +1,11 @@
+html { font-family: Arial, Helvetica, sans-serif; }
+
+.container {
+margin: -8px;
+padding: 10px;
+}
+
+#content {
+border: 1px solid black;
+background: black;
+}
