@@ -9,3 +9,19 @@ padding: 10px;
 border: 1px solid black;
 background: black;
 }
+
+#navigation {
+border: 1px solid darkblue;
+background: darkblue;
+position: fixed;
+top: 0;
+left: -20px;
+bottom: 0;
+transition: .5s;
+}
+
+#content:hover + #navigation {
+top: 0;
+left: 0;
+bottom: 0;
+}
